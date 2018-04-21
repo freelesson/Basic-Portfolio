@@ -1,22 +1,147 @@
-div.container {
-    width: 100%;
-    border: 1px solid gray;
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: #555;
 }
 
-header, footer {
-    padding: 1em;
-    color: white;
-    background-color: black;
-    clear: left;
+h1{
+    color: #4aaaa5;
+    border-bottom: 1px solid #dedede;
+    font-size: 24px;
+    padding: 15px;
+    margin-bottom: 15px;
+    width: 960px;
+}
+* {
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #ffffff;
+    border-color: #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    width: 960px;
+    margin: 0px 0px 15px 0px;
+}
+
+.main{
+    background-color: #ffffff;
+    border-color: #dddddd;
+    color: #777777;
+    max-width: 960px;
+    padding: 15px;
+    margin: auto;
+}
+
+footer{
+    background-color: #666666;
+    width: 960px;
+    padding: 15px;
+    margin: 15px 0px 0px 0px;
     text-align: center;
+    color: white;
+    font-size: 12px;
+    border-style: solid none none none;
+    border-width: 5px;
+    border-color: #4aaaa5;
+    clear: both;
 }
 
-image {
+.boxsmall {
+    width: 100%;
+    margin: 5px 5px 5px 0px;
+    padding: 5px;
+    font-size: 12px;
+    border: 1px solid #dedede;
+    color: #777777;
+}
+
+.boxlarge {
+    width: 100%;
+    height: 200px;
+    margin: 5px 5px 5px 0px;
+    padding: 5px;
+    font-size: 12px;
+    border: 1px solid #dedede;
+    color: #777777;
+}
+
+button {
+    background-color: #4aaaa5;
+    color: white;
+    height: 40px;
+    width: 100px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+li.lleft {
+    float: left;
+    background-color: #4aaaa5;
+    width: 250px;
+    padding: 15px;
+    margin: 25px;
+    text-align: center; 
+    color: white;
+    font-size: 24px;
+}
+
+
+li.rright{
+    display: block;
+    float: right;
+    padding: 15px;
+    margin: 25px;
+    font-size: 14px;
+    width: 50px;
+    /* text-decoration: none; */
+}
+
+li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+a:link {
+    color: #777777;
+}
+
+.portfolio{
+    margin: 0px 15px 15px 0px;
+}
+
+img {
     float: left;
 }
 
+div.image {
+    position: relative;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    
+}
 
+div.image img {
+    width: 100%;
+    height: auto;
+}
 
-article {
+div.desc {
+    position: absolute;
+    bottom: 8px;
+    height: 30px;
+    background-color: #4aaaa5;
+    width: 300px;
+    text-align: center; 
+    color: white;
+}
 
+p.clear {
+    
 }
